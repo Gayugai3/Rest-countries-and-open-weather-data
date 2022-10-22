@@ -38,8 +38,8 @@ async function restdata()
                                         <p class="card-text">Capital : ${data1[i].capital}</p>
                                         <p class="card-text">Region : ${data1[i].region}</p>
                                         <p class="card-text">Country code : ${data1[i].alpha3Code}</p>
-                                        <p class="card-text">Country code : ${lat}</p>
-                                        <p class="card-text">Country code : ${lon}</p>
+                                        <p class="card-text">Latitude : ${lat}</p>
+                                        <p class="card-text">longitude : ${lon}</p>
                                         <button class="btn btn-primary" type="button" id="btn${i}" value=${btnclk} >Click for Whether</button>
                                         
                                         
